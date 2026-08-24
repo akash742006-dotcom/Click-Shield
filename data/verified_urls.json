@@ -1,0 +1,610 @@
+[
+  {
+    "website_name": "Netflix",
+    "official_url": "https://www.netflix.com",
+    "domain": "netflix.com",
+    "category": "Streaming",
+    "verified": true,
+    "aliases": ["netflix"]
+  },
+  {
+    "website_name": "YouTube",
+    "official_url": "https://www.youtube.com",
+    "domain": "youtube.com",
+    "category": "Streaming",
+    "verified": true,
+    "aliases": ["youtube", "yt"]
+  },
+  {
+    "website_name": "Prime Video",
+    "official_url": "https://www.primevideo.com",
+    "domain": "primevideo.com",
+    "category": "Streaming",
+    "verified": true,
+    "aliases": ["prime video", "primevideo", "amazon prime video"]
+  },
+  {
+    "website_name": "Hotstar",
+    "official_url": "https://www.hotstar.com",
+    "domain": "hotstar.com",
+    "category": "Streaming",
+    "verified": true,
+    "aliases": ["hotstar", "disney plus hotstar"]
+  },
+  {
+    "website_name": "Google",
+    "official_url": "https://www.google.com",
+    "domain": "google.com",
+    "category": "Technology",
+    "verified": true,
+    "aliases": ["google"]
+  },
+  {
+    "website_name": "Microsoft Live",
+    "official_url": "https://login.live.com",
+    "domain": "live.com",
+    "category": "Technology",
+    "verified": true,
+    "aliases": ["microsoft", "live", "outlook", "hotmail"]
+  },
+  {
+    "website_name": "Apple",
+    "official_url": "https://www.apple.com",
+    "domain": "apple.com",
+    "category": "Technology",
+    "verified": true,
+    "aliases": ["apple", "appleid", "icloud"]
+  },
+  {
+    "website_name": "Facebook",
+    "official_url": "https://www.facebook.com",
+    "domain": "facebook.com",
+    "category": "Social Media",
+    "verified": true,
+    "aliases": ["facebook", "fb"]
+  },
+  {
+    "website_name": "Instagram",
+    "official_url": "https://www.instagram.com",
+    "domain": "instagram.com",
+    "category": "Social Media",
+    "verified": true,
+    "aliases": ["instagram", "insta"]
+  },
+  {
+    "website_name": "India Post",
+    "official_url": "https://www.indiapost.gov.in/",
+    "domain": "indiapost.gov.in",
+    "category": "Delivery",
+    "verified": true,
+    "aliases": ["india post", "indiapost", "speed post"]
+  },
+  {
+    "website_name": "Delhivery",
+    "official_url": "https://www.delhivery.com/",
+    "domain": "delhivery.com",
+    "category": "Delivery",
+    "verified": true,
+    "aliases": ["delhivery"]
+  },
+  {
+    "website_name": "Blue Dart",
+    "official_url": "https://www.bluedart.com/",
+    "domain": "bluedart.com",
+    "category": "Delivery",
+    "verified": true,
+    "aliases": ["blue dart", "bluedart"]
+  },
+  {
+    "website_name": "DHL",
+    "official_url": "https://www.dhl.com/in-en/home.html",
+    "domain": "dhl.com",
+    "category": "Delivery",
+    "verified": true,
+    "aliases": ["dhl"]
+  },
+  {
+    "website_name": "FedEx",
+    "official_url": "https://www.fedex.com/en-in/home.html",
+    "domain": "fedex.com",
+    "category": "Delivery",
+    "verified": true,
+    "aliases": ["fedex", "federal express"]
+  },
+  {
+    "website_name": "Bank of Baroda",
+    "official_url": "https://www.bankofbaroda.in",
+    "domain": "bankofbaroda.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["bank of baroda", "bob", "baroda"]
+  },
+  {
+    "website_name": "State Bank of India",
+    "official_url": "https://www.bank.sbi",
+    "domain": "bank.sbi",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["state bank of india", "sbi", "state bank"]
+  },
+  {
+    "website_name": "Bank of India",
+    "official_url": "https://www.bankofindia.co.in",
+    "domain": "bankofindia.co.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["bank of india", "boi"]
+  },
+  {
+    "website_name": "Bank of Maharashtra",
+    "official_url": "https://www.bankofmaharashtra.in",
+    "domain": "bankofmaharashtra.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["bank of maharashtra", "mahabank"]
+  },
+  {
+    "website_name": "Canara Bank",
+    "official_url": "https://www.canarabank.com",
+    "domain": "canarabank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["canara bank", "canara"]
+  },
+  {
+    "website_name": "Central Bank of India",
+    "official_url": "https://www.centralbankofindia.co.in",
+    "domain": "centralbankofindia.co.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["central bank of india", "central bank"]
+  },
+  {
+    "website_name": "Indian Bank",
+    "official_url": "https://www.indianbank.in",
+    "domain": "indianbank.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["indian bank"]
+  },
+  {
+    "website_name": "Indian Overseas Bank",
+    "official_url": "https://www.iob.in",
+    "domain": "iob.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["indian overseas bank", "iob"]
+  },
+  {
+    "website_name": "Punjab National Bank",
+    "official_url": "https://www.pnbindia.in",
+    "domain": "pnbindia.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["punjab national bank", "pnb"]
+  },
+  {
+    "website_name": "Punjab & Sind Bank",
+    "official_url": "https://www.punjabandsindbank.co.in",
+    "domain": "punjabandsindbank.co.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["punjab and sind bank", "psb"]
+  },
+  {
+    "website_name": "UCO Bank",
+    "official_url": "https://www.ucobank.com",
+    "domain": "ucobank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["uco bank", "uco"]
+  },
+  {
+    "website_name": "Union Bank of India",
+    "official_url": "https://www.unionbankofindia.co.in",
+    "domain": "unionbankofindia.co.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["union bank of india", "union bank", "ubi"]
+  },
+  {
+    "website_name": "Axis Bank",
+    "official_url": "https://www.axisbank.com",
+    "domain": "axisbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["axis bank", "axis"]
+  },
+  {
+    "website_name": "Bandhan Bank",
+    "official_url": "https://www.bandhanbank.com",
+    "domain": "bandhanbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["bandhan bank", "bandhan"]
+  },
+  {
+    "website_name": "CSB Bank",
+    "official_url": "https://www.csb.co.in",
+    "domain": "csb.co.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["csb bank", "catholic syrian bank"]
+  },
+  {
+    "website_name": "City Union Bank",
+    "official_url": "https://www.cityunionbank.com",
+    "domain": "cityunionbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["city union bank", "cub"]
+  },
+  {
+    "website_name": "DCB Bank",
+    "official_url": "https://www.dcbbank.com",
+    "domain": "dcbbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["dcb bank", "dcb"]
+  },
+  {
+    "website_name": "Dhanlaxmi Bank",
+    "official_url": "https://www.dhanbank.com",
+    "domain": "dhanbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["dhanlaxmi bank", "dhan bank"]
+  },
+  {
+    "website_name": "Federal Bank",
+    "official_url": "https://www.federalbank.co.in",
+    "domain": "federalbank.co.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["federal bank"]
+  },
+  {
+    "website_name": "HDFC Bank",
+    "official_url": "https://www.hdfcbank.com",
+    "domain": "hdfcbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["hdfc bank", "hdfc"]
+  },
+  {
+    "website_name": "ICICI Bank",
+    "official_url": "https://www.icicibank.com",
+    "domain": "icicibank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["icici bank", "icici"]
+  },
+  {
+    "website_name": "IDBI Bank",
+    "official_url": "https://www.idbibank.in",
+    "domain": "idbibank.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["idbi bank", "idbi"]
+  },
+  {
+    "website_name": "IDFC FIRST Bank",
+    "official_url": "https://www.idfcfirstbank.com",
+    "domain": "idfcfirstbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["idfc first bank", "idfc"]
+  },
+  {
+    "website_name": "IndusInd Bank",
+    "official_url": "https://www.indusind.com",
+    "domain": "indusind.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["indusind bank", "indusind"]
+  },
+  {
+    "website_name": "Jammu & Kashmir Bank",
+    "official_url": "https://www.jkbank.com",
+    "domain": "jkbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["jammu and kashmir bank", "jk bank"]
+  },
+  {
+    "website_name": "Karnataka Bank",
+    "official_url": "https://www.karnatakabank.com",
+    "domain": "karnatakabank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["karnataka bank"]
+  },
+  {
+    "website_name": "Karur Vysya Bank",
+    "official_url": "https://www.kvb.co.in",
+    "domain": "kvb.co.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["karur vysya bank", "kvb"]
+  },
+  {
+    "website_name": "Kotak Mahindra Bank",
+    "official_url": "https://www.kotak.com",
+    "domain": "kotak.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["kotak mahindra bank", "kotak bank", "kotak"]
+  },
+  {
+    "website_name": "Nainital Bank",
+    "official_url": "https://www.nainitalbank.co.in",
+    "domain": "nainitalbank.co.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["nainital bank"]
+  },
+  {
+    "website_name": "RBL Bank",
+    "official_url": "https://www.rblbank.com",
+    "domain": "rblbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["rbl bank", "rbl"]
+  },
+  {
+    "website_name": "South Indian Bank",
+    "official_url": "https://www.southindianbank.com",
+    "domain": "southindianbank.com",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["south indian bank", "sib"]
+  },
+  {
+    "website_name": "Tamilnad Mercantile Bank",
+    "official_url": "https://www.tmb.in",
+    "domain": "tmb.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["tamilnad mercantile bank", "tmb"]
+  },
+  {
+    "website_name": "YES Bank",
+    "official_url": "https://www.yesbank.in",
+    "domain": "yesbank.in",
+    "category": "Banking",
+    "verified": true,
+    "aliases": ["yes bank", "yes"]
+  },
+  {
+    "website_name": "Amazon India",
+    "official_url": "https://www.amazon.in",
+    "domain": "amazon.in",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["amazon", "amazon india", "amazon pay"]
+  },
+  {
+    "website_name": "Bajaj Finserv",
+    "official_url": "https://www.bajajfinserv.in",
+    "domain": "bajajfinserv.in",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["bajaj finserv", "bajaj"]
+  },
+  {
+    "website_name": "BHIM UPI",
+    "official_url": "https://www.bhimupi.org.in",
+    "domain": "bhimupi.org.in",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["bhim", "bhim upi", "upi"]
+  },
+  {
+    "website_name": "CRED",
+    "official_url": "https://www.cred.club",
+    "domain": "cred.club",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["cred"]
+  },
+  {
+    "website_name": "Google Pay",
+    "official_url": "https://pay.google.com/about/",
+    "domain": "pay.google.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["google pay", "gpay", "tez"]
+  },
+  {
+    "website_name": "Groww",
+    "official_url": "https://groww.in",
+    "domain": "groww.in",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["groww"]
+  },
+  {
+    "website_name": "MakeMyTrip",
+    "official_url": "https://www.makemytrip.com",
+    "domain": "makemytrip.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["makemytrip", "mmt"]
+  },
+  {
+    "website_name": "MobiKwik",
+    "official_url": "https://www.mobikwik.com",
+    "domain": "mobikwik.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["mobikwik"]
+  },
+  {
+    "website_name": "Navi",
+    "official_url": "https://www.navi.com",
+    "domain": "navi.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["navi"]
+  },
+  {
+    "website_name": "Paytm",
+    "official_url": "https://paytm.com",
+    "domain": "paytm.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["paytm", "pay through mobile"]
+  },
+  {
+    "website_name": "PhonePe",
+    "official_url": "https://www.phonepe.com",
+    "domain": "phonepe.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["phonepe", "phone pe"]
+  },
+  {
+    "website_name": "Samsung Wallet",
+    "official_url": "https://www.samsung.com/in/apps/samsung-wallet",
+    "domain": "samsung.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["samsung wallet", "samsung pay", "samsung"]
+  },
+  {
+    "website_name": "Slice",
+    "official_url": "https://www.sliceit.com",
+    "domain": "sliceit.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["slice", "slice card"]
+  },
+  {
+    "website_name": "Tata Digital",
+    "official_url": "https://www.tatadigital.com",
+    "domain": "tatadigital.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["tata digital", "tata neu", "tata"]
+  },
+  {
+    "website_name": "WhatsApp",
+    "official_url": "https://www.whatsapp.com",
+    "domain": "whatsapp.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["whatsapp", "wa"]
+  },
+  {
+    "website_name": "Zomato",
+    "official_url": "https://www.zomato.com",
+    "domain": "zomato.com",
+    "category": "Payments",
+    "verified": true,
+    "aliases": ["zomato"]
+  },
+  {
+    "website_name": "UIDAI (Aadhaar)",
+    "official_url": "https://uidai.gov.in",
+    "domain": "uidai.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["uidai", "aadhaar", "aadhar"]
+  },
+  {
+    "website_name": "DigiLocker",
+    "official_url": "https://www.digilocker.gov.in/",
+    "domain": "digilocker.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["digilocker", "digi locker"]
+  },
+  {
+    "website_name": "Election Commission of India",
+    "official_url": "https://voters.eci.gov.in/",
+    "domain": "eci.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["eci", "election commission", "voter", "voters portal"]
+  },
+  {
+    "website_name": "Income Tax Department",
+    "official_url": "https://www.incometax.gov.in/",
+    "domain": "incometax.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["income tax", "itr", "income tax department"]
+  },
+  {
+    "website_name": "Protean (NSDL)",
+    "official_url": "https://www.proteantech.in",
+    "domain": "proteantech.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["protean", "nsdl", "pan"]
+  },
+  {
+    "website_name": "UTIITSL PAN",
+    "official_url": "https://www.pan.utiitsl.com/PAN/",
+    "domain": "pan.utiitsl.com",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["utiitsl", "uti pan", "pan"]
+  },
+  {
+    "website_name": "Passport India",
+    "official_url": "https://www.passportindia.gov.in/",
+    "domain": "passportindia.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["passport india", "passport", "psk"]
+  },
+  {
+    "website_name": "Parivahan (MoRTH)",
+    "official_url": "https://parivahan.gov.in",
+    "domain": "parivahan.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["parivahan", "rto", "vahan", "sarathi"]
+  },
+  {
+    "website_name": "EPFO",
+    "official_url": "https://www.epfindia.gov.in",
+    "domain": "epfindia.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["epfo", "epf", "provident fund"]
+  },
+  {
+    "website_name": "UMANG",
+    "official_url": "https://web.umang.gov.in/",
+    "domain": "umang.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["umang"]
+  },
+  {
+    "website_name": "MyScheme",
+    "official_url": "https://www.myscheme.gov.in/",
+    "domain": "myscheme.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["myscheme", "my scheme"]
+  },
+  {
+    "website_name": "Cyber Crime (NCIR)",
+    "official_url": "https://www.cybercrime.gov.in/",
+    "domain": "cybercrime.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["cybercrime", "cyber crime", "ncir"]
+  },
+  {
+    "website_name": "Sanchar Saathi",
+    "official_url": "https://sancharsaathi.gov.in",
+    "domain": "sancharsaathi.gov.in",
+    "category": "Government",
+    "verified": true,
+    "aliases": ["sanchar saathi", "sancharsaathi", "tafcop"]
+  }
+]

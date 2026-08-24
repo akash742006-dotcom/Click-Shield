@@ -1,0 +1,67 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Post {
+  id        String   @id @default(cuid())
+  title     String
+  content   String?
+  published Boolean  @default(false)
+  authorId  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Click Shield — Link Shield scan history (session-scoped)
+model ScanHistory {
+  id            String   @id @default(cuid())
+  sessionId     String
+  url           String
+  message       String?
+  riskLevel     String   // LOW | MEDIUM | HIGH
+  riskScore     Int      // 0-100
+  indicators    String   // JSON-encoded array of indicators
+  recommendedAction String
+  verifiedName  String?
+  verifiedUrl   String?
+  verifiedDomain String?
+  verifiedCategory String?
+  createdAt     DateTime @default(now())
+
+  @@index([sessionId])
+  @@index([createdAt])
+}
+
+// Click Shield — Privacy Shield analysis history
+model PrivacyAnalysis {
+  id            String   @id @default(cuid())
+  sessionId     String
+  serviceName   String
+  serviceUrl    String?
+  policyUrl     String?
+  policyTitle   String?
+  lastUpdated   String?
+  overallRisk   String   // LOW | MEDIUM | HIGH
+  summary       String   // JSON-encoded full analysis
+  createdAt     DateTime @default(now())
+
+  @@index([sessionId])
+  @@index([createdAt])
+}
